@@ -58,9 +58,18 @@ ul{
   list-style-type: none;
 }
 
-#header-img {
+#header-img{
   width: 40px;
   height: auto;
+}
+
+.audio-section img{
+    margin-top: 30px;
+    width: 90px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 2px;
 }
 
 .feature-image{
@@ -187,7 +196,7 @@ input:focus{
 }
 
 .pricing-menu{
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   background-color: #000;
 }
@@ -390,6 +399,9 @@ footer > span {
   }
   .flex div{
     padding: 5px
+  }
+  .audio{
+    width: 90%;
   }
 }
 
