@@ -98,7 +98,7 @@ ul{
   padding: 20px;
   font-weight: 700;
   color: #fff;
-  background-color: #000;
+  background: linear-gradient(#000 50%, #000099);
   z-index: 1;
 }
 
@@ -189,6 +189,7 @@ input:focus{
 .pricing-menu{
   padding: 20px;
   margin: 0 auto;
+  background-color: #000;
 }
 
 .flex-pricing{
@@ -201,12 +202,13 @@ input:focus{
 }
 
 .pricing-menu h2{
-  background: hsl(0, 0%, 97%);
+
   padding: 5px;
 }
 
 .pricing-menu ul li{
   line-height: 1.5;
+  color: #fff;
 }
 
 #pricing-submit{
@@ -230,7 +232,7 @@ input:focus{
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #000;
   padding: 20px;
 }
 
@@ -270,8 +272,8 @@ footer > span {
 
 .stars {
     background-color: white;
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
     animation-iteration-count: infinite;
   }
@@ -284,28 +286,28 @@ footer > span {
   }
 
   .star-1 {
-    margin-left: 70%;
+    margin-left: 60%;
     animation-name: twinkle-1;
     animation-duration: 1s;
   }
 
   .star-2 {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 25%;
     animation-name: twinkle-2;
     animation-duration: 1s;
   }
 
   .star-3 {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 45%;
     animation-name: twinkle-3;
     animation-duration: 1s;
   }
 
   .star-4 {
-    margin-top: -25%;
-    margin-left: 45%;
+    margin-top: -5%;
+    margin-left: 25%;
     animation-name: twinkle-4;
     animation-duration: 1s;
   }
@@ -314,6 +316,12 @@ footer > span {
     margin-left: 75%;
     animation-name: twinkle-5;
     animation-duration: 1s;
+  }
+
+  .star-6 {
+    margin-left: 45%;
+    animation-name: twinkle-5;
+    animation-duration: 2s;
   }
   @keyframes twinkle-0 {
     60% {
@@ -324,7 +332,7 @@ footer > span {
 
 @keyframes twinkle-1 {
     50% {
-      transform: scale(0.5);
+      transform: scale(0.2);
       opacity: 0.5;
     }
   }
@@ -352,6 +360,13 @@ footer > span {
 
   @keyframes twinkle-5 {
     35% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-6 {
+    15% {
       transform: scale(0.5);
       opacity: 0.5;
     }
