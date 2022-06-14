@@ -33,7 +33,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(237, 237, 237);
 }
 
 h1, h2{
@@ -98,7 +98,7 @@ ul{
   padding: 20px;
   font-weight: 700;
   color: #fff;
-  background: linear-gradient(#000 50%, #000099);
+  background: #000;
   z-index: 1;
 }
 
@@ -241,9 +241,6 @@ footer ul {
   justify-content: flex-end;
 }
 
-footer ul li {
-  padding: 0 15px;
-}
 
 footer > span {
   display: flex;
@@ -393,11 +390,6 @@ footer > span {
   }
   .flex div{
     padding: 5px
-  }
-  .audio-section caption{
-    font-size: 23px;
-    background-color: violet;
-    padding: 5px;
   }
 }
 
