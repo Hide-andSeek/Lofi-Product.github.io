@@ -107,7 +107,7 @@ ul{
   padding: 20px;
   font-weight: 700;
   color: #fff;
-  background: #000;
+  background: rgb(11, 1, 49);
   z-index: 1;
 }
 
@@ -198,7 +198,7 @@ input:focus{
 .pricing-menu{
   padding: 10px;
   margin: 0 auto;
-  background-color: #000;
+  background-color: rgb(11, 1, 49);
 }
 
 .flex-pricing{
