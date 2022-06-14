@@ -62,6 +62,10 @@ ul{
   height: auto;
 }
 
+.feature-image:hover{
+  transform: scale(1.2);
+}
+
 #background-image{
   min-width: 80%;
   width: 100%;
@@ -234,6 +238,16 @@ footer > span {
 .audio{
   width: 100%;
   margin: 50px 0;
+}
+
+.audio-section{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.audio-section i:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 650px) {
