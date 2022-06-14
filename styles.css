@@ -33,7 +33,7 @@ header {
 
 a {
   text-decoration: none;
-  color: var(--font-color);
+  color: #fff;
 }
 
 h1, h2{
@@ -43,6 +43,11 @@ h1, h2{
 
 h1{
   font-size: 2.5rem;
+  color: #fff;
+}
+
+h1, .contact p, h2{
+  color: #fff;
 }
 
 h2{
@@ -92,7 +97,9 @@ ul{
   align-items: center;
   padding: 20px;
   font-weight: 700;
-  background: #fff;
+  color: #fff;
+  background-color: #000;
+  z-index: 1;
 }
 
 nav > ul {
@@ -136,11 +143,16 @@ input{
   border: 1px solid black;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.5s;
 }
 
 #submit:hover{
   color: #fff;
-  background: #000;
+  background: #71BCE1;
+}
+
+input{
+  background-color: #fff;
 }
 
 input:focus{
@@ -150,13 +162,17 @@ input:focus{
 .flex{
   display: flex;
   text-align: center;
-  background: hsl(0, 0%, 97%);
+  background: transparent;
   margin-bottom: 35px;
   border-radius: 30px;
 }
 
+.feat p{
+  color: #fff;
+}
+
 .flex img{
-  margin: 50px;
+  margin: 30px;
 }
 
 .flex div p{
@@ -239,6 +255,7 @@ footer > span {
 .audio{
   width: 100%;
   margin: 50px 0;
+  z-index: -10;
 }
 
 .audio-section{
@@ -250,6 +267,95 @@ footer > span {
 .audio-section i:hover{
     transform: scale(1.1);
 }
+
+.stars {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+  }
+
+  .star-0 {
+    margin-top: 2%;
+    margin-left: 30%;
+    animation-name: twinkle-0;
+    animation-duration: 1s;
+  }
+
+  .star-1 {
+    margin-left: 70%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+  }
+
+  .star-2 {
+    margin-top: 15%;
+    margin-left: 25%;
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+  }
+
+  .star-3 {
+    margin-top: 5%;
+    margin-left: 45%;
+    animation-name: twinkle-3;
+    animation-duration: 1s;
+  }
+
+  .star-4 {
+    margin-top: -25%;
+    margin-left: 45%;
+    animation-name: twinkle-4;
+    animation-duration: 1s;
+  }
+
+  .star-5 {
+    margin-left: 75%;
+    animation-name: twinkle-5;
+    animation-duration: 1s;
+  }
+  @keyframes twinkle-0 {
+    60% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+@keyframes twinkle-1 {
+    50% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-3 {
+    50% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-4 {
+    40% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-5 {
+    35% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
 
 @media (max-width: 650px) {
   #nav-bar{
@@ -279,3 +385,4 @@ footer > span {
     padding: 5px;
   }
 }
+
