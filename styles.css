@@ -265,4 +265,11 @@ footer > span {
   #background-image{
     padding: 10px;
   }
+  .flex div p{
+    padding: 0 20px 0 20px;
+    text-align: justify;
+  }
+  .flex div{
+    padding: 5px
+  }
 }
