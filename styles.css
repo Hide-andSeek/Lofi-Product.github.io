@@ -231,6 +231,11 @@ footer > span {
   color: #444;
 }
 
+.audio{
+  width: 100%;
+
+}
+
 @media (max-width: 650px) {
   #nav-bar{
     width: 100%;
