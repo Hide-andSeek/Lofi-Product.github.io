@@ -403,5 +403,16 @@ footer > span {
   .audio{
     width: 90%;
   }
+  .audio-section img{
+    margin-top: 30px;
+    width: 90px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 2px;
+  }
+  footer{
+    width: 100%;
+  }
 }
 
