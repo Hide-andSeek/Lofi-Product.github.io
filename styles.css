@@ -13,7 +13,7 @@
 /* Global Variables */
 :root{
   --font-size: 16px;
-  --main-color: ;
+  --main-color: #282c35;
   --font-family-1: 'Josefin', sans-serif;
   --font-color: #000;
 }
@@ -23,6 +23,7 @@ body{
   font-family: var(--font-family-1);
   color: var(--font-color);
   line-height: 1.5;
+  background-color: var(--main-color);
   
 }
 
