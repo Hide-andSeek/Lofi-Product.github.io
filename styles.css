@@ -233,7 +233,7 @@ footer > span {
 
 .audio{
   width: 100%;
-
+  margin: 50px 0;
 }
 
 @media (max-width: 650px) {
