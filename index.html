@@ -10,8 +10,113 @@
     <title>Resume</title>
 </head>
 <body>
-    <div class="resume">
-      <h1>Test</h1>
+  <!-- Navigation Bar Section -->
+  <header id="header">
+    <nav id="nav-bar">
+        <div class="logo">
+        <a href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/2912/2912048.png" id="header-img"/>
+        </a>
+        </div>
+        <ul class="nav">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#video">Play a Music</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <section id="main-content">
+      <img src="https://wallpapercave.com/wp/wp8422895.jpg" id="background-image" />
+      <div class="contact">        
+        <h1>Listen to LoFi Music</h1>
+        <p>Get free music collection here! Sign in with your email</p>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+          <br>
+          <input type="email" name="email" id="email" placeholder="Your email address" required/>
+          <input type="submit" id="submit" value="Get Started"/>
+        </form>
+      </div>
+
+      <!-- Features -->
+      <div class="container" id="features">
+        <div class="flex">
+          <div>
+            <img src="https://cdn-icons.flaticon.com/png/128/1895/premium/1895661.png?token=exp=1654798007~hmac=d01bfa89b5dcf6ec3a859d8fc247777b" class="feature-image"/>
+          </div>
+          <div>
+            <h2>Music improves memory  </h2>
+            <p>Your brain is a muscle, so the more you memorise and learn. Listening to music improves mood and a positive emotional state is also linked to better memory.  </p>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/1256/1256661.png" class="feature-image"/>
+          </div>
+          <div>
+            <h2>Music helps you relax </h2>
+            <p>Anything that helps relieve these feelings and promote wellbeing is likely to up your game and make you happier in the process</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <img src="https://cdn-icons.flaticon.com/png/128/3227/premium/3227053.png?token=exp=1654837726~hmac=a0295795d8d98b0ba1338a25d191b3a2" class="feature-image"/>
+          </div>
+          <div>
+            <h2>Music helps you to Focus</h2>
+            <p>Endurance + focus is a great combination. Music is an ideal remedy when reading dry, factual textbooks, learning facts or solving problems.  </p>
+          </div>
+        </div>
+      </div>
+    
+    <div>
+    <iframe id="video" src="https://www.youtube.com/embed/kj1GAYdiB5U?start=1641" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    
+    <div class="flex-pricing" id="pricing">
+      <div class="pricing-menu">
+        <h2>Morning Coffee</h2>
+        <ul>
+          <li class="price">$0</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+        <input type="submit" id="pricing-submit" value="Select"/>
+      </div>
+      <div class="pricing-menu">
+        <h2>Summer Vibes</h2>
+        <ul>
+          <li class="price">$5</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+        <input type="submit" id="pricing-submit" value="Select"/>
+      </div>
+      <div class="pricing-menu">
+        <h2>Soothing Relaxation</h2>
+        <ul>
+          <li class="price">$10</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+        <input type="submit" id="pricing-submit" value="Select"/>
+      </div>
+    </div>
+    
+  </section>
+
+  <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms and Condition</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Coded by: Hide-andSeek</span>
+  </footer>
 </body>
+</html>
 </html>
