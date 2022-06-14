@@ -272,4 +272,9 @@ footer > span {
   .flex div{
     padding: 5px
   }
+  .audio-section caption{
+    font-size: 23px;
+    background-color: violet;
+    padding: 5px;
+  }
 }
