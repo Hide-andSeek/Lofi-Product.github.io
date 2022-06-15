@@ -109,6 +109,7 @@ ul{
   color: #fff;
   background: #000;
   z-index: 1;
+  width: 100%;
 }
 
 nav > ul {
@@ -305,10 +306,10 @@ footer > span {
   }
 
   .star-3 {
-    margin-top: 0%;
+    margin-top: 6%;
     margin-left: 45%;
     animation-name: twinkle-3;
-    animation-duration: 1s;
+    animation-duration: 3s;
   }
 
   .star-4 {
@@ -337,7 +338,7 @@ footer > span {
   }
 
 @keyframes twinkle-1 {
-    50% {
+    80% {
       transform: scale(0.2);
       opacity: 0.5;
     }
@@ -351,21 +352,21 @@ footer > span {
   }
 
   @keyframes twinkle-3 {
-    50% {
+    30% {
       transform: scale(0.5);
       opacity: 0.5;
     }
   }
 
   @keyframes twinkle-4 {
-    40% {
+    50% {
       transform: scale(0.5);
       opacity: 0.5;
     }
   }
 
   @keyframes twinkle-5 {
-    35% {
+    45% {
       transform: scale(0.5);
       opacity: 0.5;
     }
